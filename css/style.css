@@ -1,0 +1,437 @@
+*{
+	box-sizing: border-box;
+}	
+body {
+	margin: 0
+	padding: 0;
+	background: #fcfcfc;
+}
+.wrapper{
+	width: 600px;
+	margin:0 auto;
+} 
+.main-firm{
+	overflow: hidden;
+	background: #214b90;
+	min-height: 360px;
+	color: #fff;
+	text-align: center;
+	padding: 40px 0 10px;
+}
+.main-firm h4{
+	padding:45px 0 20px 0;
+	margin:0;
+	text-align: left;
+	font-family:Arial;
+}
+	.main-firm h3{
+	padding:134px 0 10px 0;
+	margin:0;
+	text-align: center;
+	font-style: italic;
+	
+}
+
+.left{
+	float: left;
+}
+.right {
+	float: right;
+	padding: 16px 26px;
+	}
+
+.main-firm h1{
+	padding:23px 0 20px 0;
+	margin:0;
+	text-align:center;
+	font-family:Arial;
+	text-transform: uppercase;
+}
+.main-firm button{
+	  text-align: center;
+  display: inline-block;
+  color:#fff;
+  cursor: pointer;
+
+}
+
+.Gallery {
+	float: left;
+	margin: 0 0 5px;
+}
+
+.goto{
+	border-radius: 15px;
+  background:transparent;
+  border:1px solid #90a5c8;
+  padding: 10px 20px;
+}
+.contact{
+  text-align:center;
+}
+.contact button{
+  border-radius:20px;
+  border:2px solid #102548;
+  background:#102548;
+  padding: 16px 26px;
+  font-weight:bold;
+}
+.contact button:hover{
+  border-color:#fff;
+}
+.webmob{
+	overflow: hidden;
+	background: #ffffff;
+	min-height: 370px;
+}
+.comp {
+	float: left;
+	margin: 40px 30px 20px 0px;
+	width: 270px;
+	overflow: hidden;
+	min-height: 340px;
+	text-align: center;
+}
+.imeg-blok{
+	 display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin: 0 0 15px 0;
+  border-radius:100%;
+
+	
+}
+.webdes {
+	text-align: center;
+	margin: 10px 0px 10px 13px;
+	
+}
+.textwd {
+	text-align: center;
+	margin: 10px 0px 10px 13px;
+	color: #999999;
+}
+.mob{
+	float: right;
+	margin: 40px 30px 20px 0px;
+	width: 270px;
+	overflow: hidden;
+	min-height: 340px;
+	text-align: center;
+}
+.imeg-blok2{
+	 display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin: 0 0 15px 0;
+  border-radius:100%;
+}
+.mobdes {
+	text-align: center;
+	margin: 10px 0px 10px 13px;
+
+}
+.textmob {
+	text-align: center;
+	margin: 10px 0px 10px 13px;
+	color: #999999;
+}
+.logo{
+	overflow: hidden;
+background: #ececec;
+min-height: 510px;
+text-align: center;
+}
+.forta{
+	width: 600px;
+	margin:0 auto;
+}
+.forta h2{
+	padding:45px 0 20px 0;
+	margin:0;
+	color: #214b90;
+	font-family:Arial;
+}
+.texlogo {
+	padding:20px 0 20px 0;
+	margin:0 50px;
+	color: #999999;
+
+}
+.flex-container {
+	flex-wrap: wrap;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    width: 637px;
+    margin: 0 auto;
+}
+
+.flex-item{
+	width: 200px;
+	height: 200px;
+	background: coral;
+	margin: 10px 0;
+}
+
+
+
+.ex2 {
+	width: 600px;
+	margin: 0;
+	overflow: hidden;
+	padding: 10px 0px 10px 5px;
+}
+
+
+/* .ex2 li:nth-child(2){
+	height: 108px;
+} */
+
+
+.ex2 li{
+	display: block;
+	width: 178px;
+	min-height: 120px;
+	background: #ccc;
+	float: left;
+	margin: 4px 10px 4px 10px;
+	text-align: center;
+}
+.ex2 img{
+	float: right;
+ 	 display: block;
+ 	 text-align: center
+ 	}
+.wrapper2{
+	width: 600px;
+	margin:0 auto;
+} 
+.last{
+	overflow: hidden;
+	background: #ffffff;
+	min-height: 360px;
+	text-align: center;
+
+
+
+
+
+}
+.flex-container3{
+	width: 600px;
+	margin: 0 auto;
+	display: flex;
+	flex-direction:row;
+
+
+/* 	justify-content:flex-start; */
+
+/* 	justify-content:flex-end; */	
+
+	/*justify-content:center;	*/
+
+justify-content:space-between;	
+
+	/*justify-content:space-around; */	
+
+
+/*align-items: flex-start;
+/* 	align-items: flex-end; */
+/* 	align-items: center; */
+	/*align-items: stretch; */
+	
+
+
+}
+
+
+/* 	flex-direction:row-reverse; */
+/* 	flex-direction:column-reverse; */
+/* 	flex-direction:column; */
+
+
+
+
+
+.flex-item2{
+	width: 200px;
+	/*border: 1px solid;*/
+/* 	height: 200px; */
+	/*background: coral; */
+	margin: 10px 0;
+}
+
+.wrapper2 h2{
+	padding:50px 0 10px 20px;
+	margin:0;
+	text-align: left;
+	font-family:Arial;
+	color: #214b90;
+}
+
+.text2{
+	padding: 4px 0 20px 0;
+	margin:0;
+	text-align:center;
+	color: #c6c6c6;
+}
+
+.flex-item2 button{
+	text-align: center;
+	display: inline-block;
+	padding: 10px 20px 10px;
+	border: none;
+	background: #76ae29;
+	border-radius: 40px;
+	color: #fff;
+	margin:73px 0;
+}
+
+   hr {
+    border: none; /* Убираем границу */
+    background-color: #c6c6c6; /* Цвет линии */
+    color: #c6c6c6; /* Цвет линии для IE6-7 */
+    height: 2px; /* Толщина линии */
+    margin: 55px 20px 40px;
+       }
+
+    .text3{
+	padding: 2px 0 3px 0;
+	margin:0;
+	text-align:center;
+	color: #c6c6c6;
+}
+
+
+.ex5 {
+	width: 250px;
+	text-align: center;
+	margin: 0;
+	overflow: hidden;
+	padding: 10px 0px 10px 170px;
+	box-sizing: content-box; 
+}
+
+
+/* .ex2 li:nth-child(2){
+	height: 108px;
+} */
+
+
+.ex5 li{
+	display: block;
+	border: none;
+	width: 25px;
+	min-height: 25px;
+	float: left;
+	margin: 4px 10px 25px 10px;
+	text-align: center;
+}
+.ex5 img{
+	float: right;
+ 	 display: block;
+ 	 text-align: center
+ 	}
+}
+
+.ex5 button {
+	padding:  0;
+	margin: 0 auto;
+	text-align: center;
+	background: #ffffff;
+	display: inline-block;
+	padding: 0;
+	border: none;
+
+}
+
+@media screen and (max-width: 620px) {
+  .wrapper {
+    width: 96%;
+    
+  }
+  
+  .textwd p{
+
+  font-size:18px;
+  display: inline;
+}
+
+.textmob p{
+
+  font-size:18px;
+  
+
+}
+
+.webdes .mobdes {
+  font-size:18px;
+  text-align: center;
+  }
+
+  .Gallery, .goto, .comp, .mob {
+    width: 100%;
+    margin: 10px 0;
+    text-align: center;
+  }
+  
+ .forta {
+ 	width: 100%;
+ 	text-align: center;
+ 	display: inline;
+ }
+ .ex2 {
+ 	width: 100%;
+ 	overflow: hidden;
+
+ }
+.wrapper2{
+	width: 100%;
+	 font-size:18px;
+	 text-align: center;
+	 margin: 10px 0;
+}
+
+.flex-container3{
+	width: 100%;
+    margin: 10px 0;
+    text-align: center;
+   display: block;
+  }
+.wrapper2 h2{
+	font-size: 20px;
+    padding: 30px 0 20px;
+    text-align: center;
+}
+
+.flex-item2 .text2 :{
+display: inline;
+  text-align: center;
+ width:100%;
+    margin: 10px 0;
+    text-align: center;
+}
+
+
+button {
+font-size:18px;
+  display: inline;
+  text-align: center;
+  
+	margin: 0 auto;
+}
+.ex5 {
+	padding: 0;
+}
+
+@media screen and (min-width: 700px) and (max-width: 1000px) {
+  body{
+    background: red;
+  }
+}
+@media screen and (min-width: 700px){
+  body{
+    background: gold;
+  }
+}
